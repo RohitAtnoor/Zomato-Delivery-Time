@@ -1,16 +1,8 @@
-# neurolab-flask
+# Practicing the EDA and Model Training on Delevery time prediction.
 
-![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png)
+The Data set is refered from the class assignment.
 
-
-To run flask application 
-
-```
-python app.py
-```
-
-
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.ineuron.app:5000/
-```
+# Instruction.
+1. The size of the artifacts folder was too large so i have deleted the folder while pushing the code to github. 
+2. Before running the app.py file we have to run the training_pipeline.py file from the source/pipeline folder.
+3. After running training_pipeline.py file it will create the logs, and artifacts folder after that we can run the app.py file.
